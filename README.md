@@ -1,3 +1,3 @@
 # git-hub-workshop
 To learn github
-by Vedant Parab
+by Vedant Vijay Parab
