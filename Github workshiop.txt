@@ -1,0 +1,59 @@
+GitHub
+What is Git
+>version control system to track code changes
+
+What is Github?
+>website allows developers to store codes
+
+GitHub accounts
+>create git hub accounts
+
+Hands on Demo of GitHub
+>
+	*settiung up & configuring git*
+	->install git bash
+	->run git bash
+	->$ git config --global user.name "CptVedant"
+	->$ git config --global user.email "vedantvijayparab@gmail.com"
+	
+Clone & status
+->Clone-clonning a repo on local system
+->git clone <--link-->
+->open local ide and open a folder copy the link from repo code(the green button, and the the copy symbol)
+->open terminal and type "git clone https://github.com/CptVedant/GitHub-Workshop.git"
+->git status is used to under stand the status of file
+->git add "file name" is used to make git awre of the changes
+->git commit is used to confirm change i.e : git commit -m "new initial comment" 
+->to save multiple file we use "git add."
+->before using "git add" we save the file and press (ctrl s) in terminal
+
+Push
+->push used to upload content repo to remote repo
+->git push origin main
+->so if we check the file later in git hub we can see that the github was updated
+
+git branches
+it is used when there are multiple teams working on same project.
+hence this can be used to make prototype branches
+>git branch -M main
+this is used to change the branch name (mostly used to change the old branch name from master to main)
+
+>git checkout<branch name>
+this is used to switch the branch u are currenty in
+
+>git checkout -b <branch name>
+to switch to new branch
+
+>git branch -d "branch name"
+this code is used to delete the branch
+note : u cant delete the branch which u are currently in.
+
+Working on branches
+>we worked on diffrent branches which made differnt code
+
+merging code
+git diff <branch name>
+
+git merge <branch name>
+we can hence merge the different branch 
+then add and commit and push
